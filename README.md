@@ -19,6 +19,13 @@ cd .../target
 Identifier le jar
 java -jar nom-version.jar
 	exemple : java -jar ebanking-0.0.1-SNAPSHOT.jar
+	
+Lancement à la racine du POM
+	mvn spring-boot:run
+	mvn clean spring-boot:run
+Cela lance compile package
+
+	mvn archetype:generate
 ```
 
 ## Dependence BDD Sql Light
