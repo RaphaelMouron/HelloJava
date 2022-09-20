@@ -5,6 +5,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * 
+ * @author orsys
+ *
+ */
 @Entity
 public class Client {
 
@@ -23,6 +28,10 @@ public class Client {
 	public long getId() {
 		return id;
 	}
+	/**
+	 * 
+	 * @param id
+	 */
 	public void setId(long id) {
 		this.id = id;
 	}
@@ -53,3 +62,4 @@ public class Client {
 	
 	
 }
+
